@@ -1,0 +1,12 @@
+[user]
+	email = your@email.com
+	name = Your Name
+[core]
+	excludesfile = ~/.gitignore
+[push]
+	default = simple
+[alias]
+	undo = reset --soft HEAD^
+	history = log --pretty=oneline --abbrev-commit --graph --decorate
+	st = status -sb
+	lg = log --oneline
